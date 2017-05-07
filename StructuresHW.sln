@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuresHW", "StructuresHW\StructuresHW.csproj", "{CE9DD877-1F17-47D8-A707-55CBFC4A5CED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStructures", "CustomStructures\CustomStructures.csproj", "{A49066C8-64D8-4F0D-9083-DF755580E695}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomStructures.Tests", "CustomStructures.Tests\CustomStructures.Tests.csproj", "{4171E95C-B12D-4ACB-876E-5E57B18FD629}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{CE9DD877-1F17-47D8-A707-55CBFC4A5CED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE9DD877-1F17-47D8-A707-55CBFC4A5CED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE9DD877-1F17-47D8-A707-55CBFC4A5CED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49066C8-64D8-4F0D-9083-DF755580E695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49066C8-64D8-4F0D-9083-DF755580E695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49066C8-64D8-4F0D-9083-DF755580E695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49066C8-64D8-4F0D-9083-DF755580E695}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4171E95C-B12D-4ACB-876E-5E57B18FD629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4171E95C-B12D-4ACB-876E-5E57B18FD629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4171E95C-B12D-4ACB-876E-5E57B18FD629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4171E95C-B12D-4ACB-876E-5E57B18FD629}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
