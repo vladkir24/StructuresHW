@@ -75,6 +75,13 @@ namespace CustomStructures
                 return result;
             }
 
+            if (Length == 1)
+            {
+                First = null;
+                Length--;
+                return true;
+            }
+
             CustomLinkedListNode<T> previousNode = null;
             CustomLinkedListNode<T> currentNode = First;
             bool isExit = false;
@@ -93,7 +100,6 @@ namespace CustomStructures
                     }
                     else
                     {
-                        //todo check for tail or add remove first
                         First = First.Next;
                         if (First.Next == null)
                         {

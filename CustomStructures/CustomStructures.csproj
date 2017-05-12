@@ -40,8 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomHashTable.cs" />
+    <Compile Include="CustomHashTableItem.cs" />
     <Compile Include="CustomLinkedList.cs" />
     <Compile Include="CustomLinkedListNode.cs" />
+    <Compile Include="Exceptions\HashTableElementPresenceException.cs" />
+    <Compile Include="Exceptions\HashTableElementAbsenceException.cs" />
+    <Compile Include="ICustomHashTable.cs" />
     <Compile Include="ICustomLinkedList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
